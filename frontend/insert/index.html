@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShitlerStats</title>
+</head>
+<body>
+    <header>
+        <div class="head_text">
+            <h1>Secret Hitler Statsite</h1>
+        </div>
+
+        <div class="header_buttons">
+            <label for="home_button" class="visuallyhidden">Home Page</label>
+            <button class="tab_button" id="home_button" onclick="click_home()">
+                Home
+            </button>
+            <label for="round_button" class="visuallyhidden">Add Round</label>
+            <button class="tab_button" id="round_button" onclick="click_insert()">
+                Insert
+            </button>
+            <label for="refresh_button" class="visuallyhidden">Refresh</label>
+            <button class="tab_button" id="refresh_button" onclick="click_refresh()">
+                Refresh
+            </button>
+        </div>
+    </header>
+
+    <div class="true_body">
+        <div class="winner_select" id="winner_select"></div>
+
+        <div class="table" id="table">
+            <div class="table_left_half" id="table_left_half"></div>
+            <div class="table_right_half" id="table_right_half"></div>
+        </div>
+
+        <div class="bottom">
+            <div class="security">
+                <input type="text" id="username_input" class="sec_input" maxlength="15" placeholder="Username">
+                <label for="username_input" id="username_input>" class="visuallyhidden">Username</label>
+                <input type="password" id="password_input" class="sec_input" maxlength="15" placeholder="Password">
+                <label for="password_input" id="password_input>" class="visuallyhidden">Password</label>
+
+            </div>
+            <button class="append_button" onclick="check_data()">Insert</button>
+        </div>
+    
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

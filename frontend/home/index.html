@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"></link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShitlerStats</title>
+</head>
+<body>
+    <header>
+        <div class="head_text">
+            <h1>Secret Hitler Statsite</h1>
+        </div>
+
+        <div class="header_buttons">
+            <label for="home_button" class="visuallyhidden">Home Page</label>
+            <button class="tab_button" id="home_button" onclick="click_home()">
+                Home
+            </button>
+            <label for="round_button" class="visuallyhidden">Add Round</label>
+            <button class="tab_button" id="round_button" onclick="click_insert()">
+                Insert
+            </button>
+            <label for="refresh_button" class="visuallyhidden">Refresh</label>
+            <button class="tab_button" id="refresh_button" onclick="click_refresh()">
+                Refresh
+            </button>
+        </div>
+    </header>
+    <div class="true_body">
+        <div class="middle">
+            
+            <div class="last_hit">
+                <p id="last_hit"></p>
+            </div>
+    
+            <div class="search_header">
+                <div class="search_bar">
+                    <input type="text" id="input_bar" class="input_bar" maxlength="15">
+                    <label for="input_bar" id="input_bar>>" class="visuallyhidden">Search</label>
+                </div>
+                <div class="search_confirm">
+                    <label for="confirm" class="visuallyhidden">Confirm</label>
+                    <button class="search_confirm" id="confirm"></button>
+                </div>
+            </div>
+    
+        </div>
+            <div class="table_order">
+                <div class="overview">
+                    <table class="overview" id="overview">
+                        <tr>
+                            <th class="nm">Name</th>
+                            <th class="ht">Hitler</th>
+                            <th class="fs">Fascist</th>
+                            <th class="lb">Liberal</th>
+                            <th class="wn">Wins</th>
+                            <th class="tl">Total</th>
+                            <th class="wr">Win Rate</th>
+                        </tr>
+            
+            
+            
+                    </table>
+            
+                </div>
+            </div>
+    </div>
+    
+ 
+
+
+    
+
+        <script src="script.js"></script>
+</body>
+</html>

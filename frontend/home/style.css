@@ -1,0 +1,189 @@
+
+html {
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    position: sticky;
+    width: 100vw;
+    height: 14vh;
+    justify-content: end;
+    background-color: orangered;
+    z-index: 10;
+}
+
+.head_text {
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+}
+
+
+
+@font-face {
+    font-family: fancy_text;
+    src: url(../GermaniaOne-Regular.ttf);
+}
+
+h1 {
+    color:bisque;
+    font-family: fancy_text;
+    font-size: 5vw;
+    text-shadow: 0.3vw 0.3vw rgb(50, 50, 50);
+    justify-self: center;
+}
+
+.header_buttons {
+    padding: 2vw;
+    flex-direction: row;
+    z-index: 1;
+}
+
+
+.tab_button {
+    margin-left: 0.8vw; margin-right: 0.8vw;
+    padding: 1.5vw;
+    border: 0.3vw solid black;
+}
+
+.true_body {
+    display: flex;
+    flex-direction: row;;
+}
+
+.last_hit {
+    margin: 3vw;
+    height: 10vh;
+    width: 30vw;
+    border: 0.5vw solid black;
+}
+
+div.middle {
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.last_hit {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    align-content: center;
+    justify-content: center;
+}
+
+.search_header {
+    flex-direction: row;
+    width: 30vw;
+    height: 50%;
+    flex-direction: row;
+}
+.input_bar {
+    color:black;
+    width: 80%;
+    height: 6vh;
+}
+
+button.search_confirm {
+    padding: 6%;
+}
+
+
+.table_order {
+    display: flex;
+    width: 50vw;
+    height: auto;
+    justify-content: end;
+    z-index: -1;
+}
+
+div.overview {
+    margin: 2.5vh;
+    background-color: red;
+    width: 48vw;
+    height: 80vh;
+}
+
+table.overview {
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+th, th p {
+    font-size: 1.6vw;
+    height: 4vh;
+    color: black;
+    padding: 0.3vw;
+    border: 0.3vw solid black;
+    font-family: fancy_text;
+}
+
+tr {
+    font-size: 1.6vw;
+    height: 4vh;
+    padding: 0.3vw;
+    border: 0.3vw solid black;
+    font-family: fancy_text;
+}
+
+.nm {
+    width: 16vh;
+    background-color: white;
+    color: black;
+}
+
+.ht, .fs, .lb, .wn, .tl, .wr {
+    width: 8vh;
+}
+
+.ht {
+    background-color: red;
+    color:bisque;
+    text-shadow: 0.15vw 0.15vw rgb(50, 50, 50);
+}
+.fs {
+    background-color: bisque;
+    color:red;
+    text-shadow: 0.1vw 0.1vw rgb(50, 50, 50);
+}
+.lb {
+    background-color: bisque;
+    color: rgb(93, 93, 255);
+    text-shadow: 0.1vw 0.1vw rgb(50, 50, 50);
+}
+.wn {
+    background-color: bisque;
+    color:black;
+}
+.tl {
+    background-color: bisque;
+    color:black;
+}
+.wr {
+    background-color: black;
+    color:bisque;
+}
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }

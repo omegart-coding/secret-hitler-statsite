@@ -1,0 +1,202 @@
+
+html {
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    position: sticky;
+    width: 100vw;
+    height: 14vh;
+    justify-content: end;
+    background-color: orangered;
+    z-index: 10;
+}
+
+.head_text {
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+}
+
+
+
+@font-face {
+    font-family: fancy_text;
+    src: url(../GermaniaOne-Regular.ttf);
+}
+
+h1 {
+    color:bisque;
+    font-family: fancy_text;
+    font-size: 5vw;
+    text-shadow: 0.3vw 0.3vw rgb(50, 50, 50);
+    justify-self: center;
+}
+
+.header_buttons {
+    padding: 2vw;
+    flex-direction: row;
+    z-index: 1;
+}
+
+
+.tab_button {
+    margin-left: 0.8vw; margin-right: 0.8vw;
+    padding: 1.5vw;
+    border: 0.3vw solid black;
+}
+
+.true_body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.winner_select {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 8vw;
+    width: 100%;
+}
+.round_winner {
+    display: flex;
+    font-family: fancy_text;
+    align-items: center;
+    justify-content: space-between;
+    width: 18vw;
+    height: 10vw;
+    flex-direction: row;
+}
+
+.round_winner label {
+    background-color: white;
+    font-size: 2vw;
+    border: 0.3vw solid black;
+}
+
+.round_winner input[type="radio"] {
+    display: none;
+}
+
+.round_winner input[type="radio"]:checked + label {
+    background-color: green;
+}
+
+.table {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+
+.table_left_half {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.table_right_half {
+    width: 50vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.person {
+    font-family: fancy_text;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 6vh;
+    margin: 1vw;
+}
+
+.person p, label {
+    background-color: white;
+    font-size: 2vw;
+    padding: 1vw;
+    border: 0.3vw solid black;
+}
+
+.person p {
+    text-align: center;
+    width: 10vw;
+
+}
+
+.person label {
+    text-align: center;
+    display: inline-block;
+    width: 3vw;
+}
+
+
+
+.person input[type="radio"] {
+    display: none;
+}
+
+.person input[type="radio"]:checked + label {
+    background-color: green;
+}
+
+
+.append_button {
+    display: flex;
+    width: 7vw;
+    height: 4vh;
+    padding: 2vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    font-family: fancy_text;
+    border: 0.2vw solid black;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.security {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+.sec_input {
+    height: 2.3vw;
+    width: 17vw;
+    margin: 0.1vw;
+}
+
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
