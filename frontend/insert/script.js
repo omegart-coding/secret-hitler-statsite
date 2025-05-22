@@ -1,5 +1,5 @@
 const host = window.location.protocol + "//" + window.location.host
-const api_url = 'http://localhost:3000'
+const api_url = 'http://127.0.0.1:3000'
 
 let rounds_list = []
 
