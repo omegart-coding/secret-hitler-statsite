@@ -1,2 +1,4 @@
 # secret-hitler-statsite
-Nettside for statistikk Secret Hitler innad vennegruppe
+Website for statistics for the game Secret Hitler for my friend group.
+
+Private project.
